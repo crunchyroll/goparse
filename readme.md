@@ -1,8 +1,3 @@
-TODO
-----
- - License?
- - CR ownership?
-
 Debugging command-line interface for the built-in Go library parser.
 
 Documentation
