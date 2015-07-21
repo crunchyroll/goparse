@@ -42,6 +42,7 @@ var mode parser.Mode
 var astPrint *bool
 
 func init() {
+	log.SetFlags(0)
 	importsOnly       := flag.Bool("imports-only",       false,
 		"stop parsing after import declarations")
 	parseComments     := flag.Bool("parse-comments",     false,
